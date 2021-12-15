@@ -24,7 +24,7 @@ def get_filters():
             break
 
 
-    # TO DO: get user input for month (all, january, february, ... , june)
+    # TO DO: get user input for month (all, january, february, march, april, may, june)
     months = ['january', 'february', 'march', 'april', 'may', 'june']
     month = input('Now you have to enter a month to get some months result or enter ALL to get all data \n> {} \n> '.format(months))
 
