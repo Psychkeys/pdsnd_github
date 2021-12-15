@@ -24,11 +24,11 @@ def get_filters():
             break
 
 
-    # TO DO: get user input for month (all, january, february, ... , june)
+    # TO DO: get user input for month (all, january, february, march, april, may, june)
     months = ['january', 'february', 'march', 'april', 'may', 'june']
     month = input('Now you have to enter a month to get some months result or enter ALL to get all data \n> {} \n> '.format(months))
 
-    # get user input for day of week (all, monday, tuesday, ... sunday)
+    # get user input for day of week (all, monday, tuesday, wednesday, thursday, friday, saturday, sunday)
     days = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday']
     day = input('Now you have to enter a dau to get some days result or enter ALL to get all data \n> {} \n> '.format(days))
 
@@ -203,10 +203,12 @@ def display_data(df):
     """Displays raw bikeshare data."""
     row_length = df.shape[0]
 
+
+
     # iterate from 0 to the number of rows in steps of 5
     for i in range(0, row_length, 5):
 
-        yes = input('\nWould you like to examine the particular user trip data? Type \'yes\' or \'no\'\n> ')
+        yes = input('\nWould you love to examine the particular user trip data? Type \'yes\' or \'no\'\n> ')
         if yes.lower() != 'yes':
             break
 
