@@ -203,10 +203,12 @@ def display_data(df):
     """Displays raw bikeshare data."""
     row_length = df.shape[0]
 
+
+
     # iterate from 0 to the number of rows in steps of 5
     for i in range(0, row_length, 5):
 
-        yes = input('\nWould you like to examine the particular user trip data? Type \'yes\' or \'no\'\n> ')
+        yes = input('\nWould you love to examine the particular user trip data? Type \'yes\' or \'no\'\n> ')
         if yes.lower() != 'yes':
             break
 
