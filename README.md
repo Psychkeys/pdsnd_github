@@ -10,6 +10,7 @@ Bikeshare Project
 
 ### Description
 Describe what your project is about and what it does
+The project gives data about Bike Sharing System which is a shared transport service in which bicycles are made available for shared use to individuals on a short term basis for a price or free. These data is based on three states: New York City, Chiacago, Washignton
 
 ### Files used
 Include the files used
