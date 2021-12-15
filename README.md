@@ -2,6 +2,7 @@
 
 ### Date created
 Include the date you created this project and README file.
+This project was on Wednesday, 15 December 2021
 
 ### Project Title
 Replace the Project Title
