@@ -28,7 +28,7 @@ def get_filters():
     months = ['january', 'february', 'march', 'april', 'may', 'june']
     month = input('Now you have to enter a month to get some months result or enter ALL to get all data \n> {} \n> '.format(months))
 
-    # get user input for day of week (all, monday, tuesday, ... sunday)
+    # get user input for day of week (all, monday, tuesday, wednesday, thursday, friday, saturday, sunday)
     days = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday']
     day = input('Now you have to enter a dau to get some days result or enter ALL to get all data \n> {} \n> '.format(days))
 
